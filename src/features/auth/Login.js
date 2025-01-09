@@ -135,7 +135,12 @@ const Login = () => {
                 color="primary"
               />
             }
-            label="Trust This Device"
+            label="Remember Me"
+            sx={{
+              color: "#0078D7",
+              fontWeight: "bold",
+              fontSize: "16px",
+            }}
           />
           <Button
             type="submit"

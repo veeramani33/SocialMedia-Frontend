@@ -38,8 +38,8 @@ const Sidebar = ({ mode, setMode }) => {
   const handleOpenFriendSug = () => setOpenFriendSug(true);
   const handleCloseFriendSug = () => setOpenFriendSug(false);
 
-  const handleOpenEditUserDialog = () => setOpenEditUserDialog(true); // Open EditUser Dialog
-  const handleCloseEditUserDialog = () => setOpenEditUserDialog(false); // Close EditUser Dialog
+  const handleOpenEditUserDialog = () => setOpenEditUserDialog(true);
+  const handleCloseEditUserDialog = () => setOpenEditUserDialog(false); 
 
   const [openAllFriendChat, setOpenAllFriendChat] = useState(false);
   const handleOpenAllFriendChat = () => setOpenAllFriendChat(true);

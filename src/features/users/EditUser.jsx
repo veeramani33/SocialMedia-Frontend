@@ -17,7 +17,7 @@ const EditUser = ({ userId }) => {
   const [email, setEmail] = useState("");
   const [profilePicture, setProfilePicture] = useState("");
   const [password, setPassword] = useState("");
-  const [file, setFile] = useState(null); // File for upload
+  const [file, setFile] = useState(null); 
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [snackbarMessage, setSnackbarMessage] = useState("");
 
